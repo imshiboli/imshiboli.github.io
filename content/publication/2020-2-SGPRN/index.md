@@ -28,8 +28,8 @@ publishDate: '2020-02-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)*
-publication_short: In *In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)*
+publication: In *Proceedings of the 29th International Joint Conference on Artificial Intelligence (<span style="color:blue">IJCAI 2020</span>)*
+publication_short: In *Proceedings of the 29th International Joint Conference on Artificial Intelligence (<span style="color:blue">IJCAI 2020</span>)*
 
 abstract: Gaussian process regression networks (GPRN) are powerful Bayesian models for multi-output regression, but their inference is intractable. To address this issue, existing methods use a fully factorized structure (or a mixture of such structures) over all the outputs and latent functions for posterior approximation, which, however, can miss the strong posterior dependencies among the latent variables and hurt the inference quality. In addition, the updates of the variational parameters are inefficient and can be prohibitively expensive for a large number of outputs. To overcome these limitations, we propose a scalable variational inference algorithm for GPRN, which not only captures the abundant posterior dependencies but also is much more efficient for massive outputs. We tensorize the output space and introduce tensor/matrix-normal variational posteriors to capture the posterior correlations and to reduce the parameters. We jointly optimize all the parameters and exploit the inherent Kronecker product structure in the variational model evidence lower bound to accelerate the computation. We demonstrate the advantages of our method in several real-world applications. 
 

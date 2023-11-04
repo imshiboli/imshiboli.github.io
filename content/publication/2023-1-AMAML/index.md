@@ -29,8 +29,8 @@ publishDate: '2023-03-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)*
-publication_short: In *The 26th International Conference on Artificial Intelligence and Statistics (AISTATS 2023)*
+publication: In *The 26th International Conference on Artificial Intelligence and Statistics (<span style="color:blue">AISTATS 2023</span>)*
+publication_short: In *The 26th International Conference on Artificial Intelligence and Statistics (<span style="color:blue">AISTATS 2023</span>)*
 
 abstract: Model Agnostic Meta-Learning (MAML) is widely used to find a good initialization for a family of tasks. Despite its success, a critical challenge in MAML is to calculate the gradient w.r.t. the initialization of a long training trajectory for the sampled tasks, because the computation graph can rapidly explode and the computational cost is very expensive. To address this problem, we propose Adjoint MAML (A-MAML). We view gradient descent in the inner optimization as the evolution of an Ordinary Differential Equation (ODE). To efficiently compute the gradient of the validation loss w.r.t. the initialization, we use the adjoint method to construct a companion, backward ODE. To obtain the gradient w.r.t. the initialization, we only need to run the standard ODE solver twice — one is forward in time that evolves a long trajectory of gradient flow for the sampled task; the other is backward and solves the adjoint ODE. We need not create or expand any intermediate computational graphs, adopt aggressive approximations, or impose proximal regularizers in the training loss. Our approach is cheap, accurate, and adaptable to different trajectory lengths. We demonstrate the advantage of our approach in both synthetic and real-world meta-learning tasks. The code is available at https://github.com/shib0li/Adjoint-MAML. 
 

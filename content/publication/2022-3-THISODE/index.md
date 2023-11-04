@@ -27,8 +27,8 @@ publishDate: '2022-06-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The 39th International Conference on Machine Learning (ICML 2022)*
-publication_short: In *The 39th International Conference on Machine Learning (ICML 2022)*
+publication: In *The 39th International Conference on Machine Learning (<span style="color:blue">ICML 2022</span>)*
+publication_short: In *The 39th International Conference on Machine Learning (<span style="color:blue">ICML 2022</span>)*
 
 abstract: High-order interactions between multiple objects are common in real-world applications. Although tensor decomposition is a popular framework for high-order interaction analysis and prediction, most methods cannot well exploit the valuable timestamp information in data. The existent methods either discard the timestamps or convert them into discrete steps or use over-simplistic decomposition models. As a result, these methods might not be capable enough of capturing complex, fine-grained temporal dynamics or making accurate predictions for long-term interaction results. To overcome these limitations, we propose a novel Temporal High-order Interaction decompoSition model based on Ordinary Differential Equations (THIS-ODE). We model the time-varying interaction result with a latent ODE. To capture the complex temporal dynamics, we use a neural network (NN) to learn the time derivative of the ODE state. We use the representation of the interaction objects to model the initial value of the ODE and to constitute a part of the NN input to compute the state. In this way, the temporal relationships of the participant objects can be estimated and encoded into their representations. For tractable and scalable inference, we use forward sensitivity analysis to efficiently compute the gradient of ODE state, based on which we use integral transform to develop a stochastic mini-batch learning algorithm. We demonstrate the advantage of our approach in simulation and four real-world applications. 
 

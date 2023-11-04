@@ -28,8 +28,8 @@ publishDate: '2022-03-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022)*
-publication_short: In *The 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022)*
+publication: In *The 25th International Conference on Artificial Intelligence and Statistics (<span style="color:blue">AISTATS 2022</span>)*
+publication_short: In *The 25th International Conference on Artificial Intelligence and Statistics (<span style="color:blue">AISTATS 2022</span>)*
 
 abstract: Many applications, such as in physical simulation and engineering design, demand we estimate functions with high-dimensional outputs. To reduce the expensive cost of generating training examples, we usually choose several fidelities to enable a cost/quality trade-off. In this paper, we consider the active learning task to automatically identify the fidelities and training inputs to query new examples so as to achieve the best learning benefit-cost ratio. To this end, we propose DMFAL, a Deep Multi-Fidelity Active Learning approach. We first develop a deep neural network-based multi-fidelity model for high-dimensional outputs, which can flexibly capture strong complex correlations across the outputs and fidelities to enhance the learning of the target function. We then propose a mutual information based acquisition function that extends the predictive entropy principle. To overcome the computational challenges caused by large output dimensions, we use the multi-variate delta method and moment-matching to estimate the output posterior, and Weinstein-Aronszajn identity to calculate and optimize the acquisition function. We show the advantage of our method in several applications of computational physics and engineering design. The code is available at https://github.com/shib0li/DMFAL. 
 
