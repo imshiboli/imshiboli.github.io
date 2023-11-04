@@ -31,9 +31,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: AI for Science with Baysian Learning
 
-# Interests to show in About widget
-interests:
-  - AI for Science
+# # Interests to show in About widget
+# interests:
+#   - AI for Science
 
 # # Education to show in About widget
 # education:
