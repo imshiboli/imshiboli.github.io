@@ -31,9 +31,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: AI for Science with Baysian Learning
 
-# # Interests to show in About widget
+# Interests to show in About widget
 # interests:
-#   - AI for Science
+#   - Probabilistic Learning Bayesian modeling, Approximate inference, Uncertainty quantification of deep models
 
 # # Education to show in About widget
 # education:
@@ -124,8 +124,16 @@ highlight_name: true
 
 I am a Ph.D. Candidate in Computer Science both affliated with [The Kahlert School of Computing (SoC)](https://www.cs.utah.edu/) and [Scientific Computing and Imaging Institute (SCI)](https://www.sci.utah.edu/) at [The University of Utah](https://www.utah.edu/). I received my M.S. degree at [University of Pittsburgh](https://www.pitt.edu/) and my B.E. degree at [South China University of Technology(SCUT)](https://www.scut.edu.cn/en/). I also spent time at [Schlumberger-Doll Research](http://media.corporate-ir.net/media_files/irol/97/97513/2017ar/interactive/research-center.html) as robotics research intern and at [Amazon](https://www.amazon.science/) as applied scientist intern working on privacy-preserving learning algorihtms and in-context few-shots learning with pretrained large language/multi-modality models.
 
-My principal research interests lie in developing flexible and scalable algorithms that can learn from <b>complex, structural, and high-dimensional data within the *Bayesian* framework</b>. I am advised by [Dr. Shandian Zhe](https://users.cs.utah.edu/~zhe/) and [Dr. Mike Kirby](https://users.cs.utah.edu/~kirby/). I am also experienced with reinforcement learning/inverse reinforcement learning/imitation learning problems that help automatic agents make rational decisions from temporal data under uncertainties.
+My research vision is deeply rooted in <b>*AI for Science*</b> --- by leveraging state-of-the-art learning techniques to facilitate the foundamental and classical studies of scientific priciples from <b>complex, structural, and high-dimensional data</b>. I am advised by [Dr. Shandian Zhe](https://users.cs.utah.edu/~zhe/) and [Dr. Mike Kirby](https://users.cs.utah.edu/~kirby/).
 
+My interests include but not limit to
+* <b><u>Prbabilistic Learning</u> </b>: Bayesian modeling, Approximate Inference, Uncertainty quantification of deep models
+* <b><u>AI for Science</u> </b>: Surrogate Modeling, Operator Learning, Physical-Informed Machine Learning
+* <b><u>Multi-Objective Learning</u> </b>: Multi-Task Learning, Multi-Fidelity Learning, Transfer Learning, Meta-Learning
+* <b><u>Interactive Machine Learning</u> </b>: Bayesian Optimisation, Active Learning, Multi-Armed Bandits, Reinforcement Learning
+
+
+<span style="color:red"> I am on job market right now! I am open for academic and industrial poisitions starting <b>summer/fall/winter</b> 2024. If you are interested in my background, do not hesitate to contact me via <u>shiboli.cs@gmail.com</u></span>
 
 
 <script data-goatcounter="https://imshibo.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
