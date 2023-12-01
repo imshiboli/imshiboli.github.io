@@ -127,7 +127,7 @@ I am a Ph.D. Candidate in Computer Science both affliated with [The Kahlert Scho
 My research vision is deeply rooted in <b>*AI for Science*</b> --- by leveraging state-of-the-art learning techniques to facilitate the foundamental and classical studies of scientific priciples from <b>complex, structural, and high-dimensional data</b>. I am advised by [Dr. Shandian Zhe](https://users.cs.utah.edu/~zhe/) and [Dr. Mike Kirby](https://users.cs.utah.edu/~kirby/).
 
 My interests include but not limit to
-* <b><u>Prbabilistic Learning</u> </b>: Bayesian modeling, Approximate Inference, Uncertainty quantification of deep models
+* <b><u>Probabilistic Learning</u> </b>: Bayesian modeling, Approximate Inference, Uncertainty quantification of deep models
 * <b><u>AI for Science</u> </b>: Surrogate Modeling, Operator Learning, Physical-Informed Machine Learning
 * <b><u>Multi-Objective Learning</u> </b>: Multi-Task Learning, Multi-Fidelity Learning, Transfer Learning, Meta-Learning
 * <b><u>Interactive Machine Learning</u> </b>: Bayesian Optimisation, Active Learning, Multi-Armed Bandits, Reinforcement Learning
