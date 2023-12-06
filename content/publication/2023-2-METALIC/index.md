@@ -50,7 +50,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://openreview.net/forum?id=e694Xvz6Q6'
-url_code: ''
+url_code: 'https://github.com/shib0li/METALIC'
 url_dataset: ''
 url_poster: ''
 url_project: ''
