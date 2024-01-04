@@ -124,7 +124,7 @@ highlight_name: true
 
 I am a Ph.D. Candidate in Computer Science both affliated with [The Kahlert School of Computing (SoC)](https://www.cs.utah.edu/) and [Scientific Computing and Imaging Institute (SCI)](https://www.sci.utah.edu/) at [The University of Utah](https://www.utah.edu/). I received my M.S. degree at [University of Pittsburgh](https://www.pitt.edu/) and my B.E. degree at [South China University of Technology(SCUT)](https://www.scut.edu.cn/en/). I also spent time at [Schlumberger-Doll Research](http://media.corporate-ir.net/media_files/irol/97/97513/2017ar/interactive/research-center.html) as robotics research intern and at [Amazon](https://www.amazon.science/) as applied scientist intern working on privacy-preserving learning algorihtms and in-context few-shots learning with pretrained large language/multi-modality models.
 
-My research vision is deeply rooted in <b>*AI for Science*</b> --- by leveraging state-of-the-art learning techniques to facilitate the foundamental and classical studies of scientific priciples from <b>complex, structural, and high-dimensional data</b>. I am advised by [Dr. Shandian Zhe](https://users.cs.utah.edu/~zhe/) and [Dr. Mike Kirby](https://users.cs.utah.edu/~kirby/).
+My research vision is deeply rooted in <b>*AI for Science*</b> --- by leveraging state-of-the-art learning techniques to facilitate the foundamental and classical studies of scientific priciples from <b>complex, structural, and high-dimensional data</b>. I am advised by [Dr. Shandian Zhe](https://users.cs.utah.edu/~zhe/).
 
 My interests include but not limit to
 * <b><u>Probabilistic Learning</u> </b>: Bayesian modeling, Approximate Inference, Uncertainty quantification of deep models
