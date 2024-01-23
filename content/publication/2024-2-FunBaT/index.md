@@ -1,13 +1,13 @@
 ---
-title: 'Solving High Frequency and Multi-Scale PDEs with Gaussian Processes'
+title: 'Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Shikai Fang
-  - Madison Cooley
-  - Da Long
+  - Xin Yu
+  - Zheng Wang
   - Shibo Li
   - Mike Kirby
   - Shandian Zhe
@@ -22,7 +22,7 @@ authors:
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-11-02T00:00:00Z'
+publishDate: '2024-01-02T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,13 +30,13 @@ publishDate: '2023-11-02T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: (<span style="color:red"> Preprint </span>)
-publication_short: (<span style="color:red"> Preprint </span>)
+publication: In *Twelfth International Conference on Learning Representations (<span style="color:blue">ICLR 2024</span>)* 
+publication_short: In *Twelfth International Conference on Learning Representations (<span style="color:blue">ICLR 2024</span>)*
 
-abstract: Machine learning based solvers have garnered much attention in physical simulation and scientific computing, with a prominent example, physics-informed neural networks (PINNs). However, PINNs often struggle to solve high-frequency and multi-scale PDEs, which can be due to spectral bias during neural network training. To address this problem, we resort to the Gaussian process (GP) framework. To flexibly capture the dominant frequencies, we model the power spectrum of the PDE solution with a student t mixture or Gaussian mixture. We then apply the inverse Fourier transform to obtain the covariance function (according to the Wiener-Khinchin theorem). The covariance derived from the Gaussian mixture spectrum corresponds to the known spectral mixture kernel. We are the first to discover its rationale and effectiveness for PDE solving. Next,we estimate the mixture weights in the log domain, which we show is equivalent to placing a Jeffreys prior. It automatically induces sparsity, prunes excessive frequencies, and adjusts the remaining toward the ground truth. Third, to enable efficient and scalable computation on massive collocation points, which are critical to capture high frequencies, we place the collocation points on a grid, and multiply our covariance function at each input dimension. We use the GP conditional mean to predict the solution and its derivatives so as to fit the boundary condition and the equation itself. As a result, we can derive a Kronecker product structure in the covariance matrix. We use Kronecker product properties and multilinear algebra to greatly promote computational efficiency and scalability, without any low-rank approximations. We show the advantage of our method in systematic experiments.
+abstract: Tucker decomposition is a powerful tensor model to handle multi-aspect data. It demonstrates the low-rank property by decomposing the grid-structured data as interactions between a core tensor and a set of object representations (factors). A fundamental assumption of such decomposition is that there were finite objects in each aspect or mode, corresponding to discrete indexes of data entries. However, many real-world data are not naturally posed in the setting. For example, geographic data is represented as continuous indexes of latitude and longitude coordinates, and cannot fit tensor models directly. To generalize Tucker decomposition to such scenarios, we propose Functional Bayesian Tucker Decomposition (FunBaT). We treat the continuous-indexed data as the interaction between the Tucker core and a group of latent functions. We use Gaussian processes (GP) as functional priors to model the latent functions, and then convert the GPs into a state-space prior by constructing an equivalent stochastic differential equation (SDE) to reduce computational cost. An efficient inference algorithm is further developed for scalable posterior approximation based on advanced message-passing techniques. The advantage of our method is shown in both synthetic data and several real-world applications.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: Shibo Li
 
 tags: []
 
@@ -48,7 +48,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2311.04465'
+url_pdf: 'https://arxiv.org/abs/2311.04829'
 url_code: ''
 url_dataset: ''
 url_poster: ''

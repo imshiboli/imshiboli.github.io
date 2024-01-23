@@ -28,8 +28,8 @@ publishDate: '2023-11-01T00:00:00Z'
 # publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: (<span style="color:red"> Preprint </span>)
-publication_short: (<span style="color:red"> Preprint </span>)
+publication: (<span style="color:black"> Preprint </span>)
+publication_short: (<span style="color:black"> Preprint </span>)
 
 abstract: Multi-fidelity surrogate learning is important for physical simulation related applications in that it avoids running numerical solvers from scratch, which is known to be costly, and it uses multi-fidelity examples for training and greatly reduces the cost of data collection. Despite the variety of existing methods, they all build a model to map the input parameters outright to the solution output. Inspired by the recent breakthrough in generative models, we take an alternative view and consider the solution output as generated from random noises. We develop a diffusion-generative multi-fidelity (DGMF) learning method based on stochastic differential equations (SDE), where the generation is a continuous denoising process. We propose a conditional score model to control the solution generation by the input parameters and the fidelity. By conditioning on additional inputs (temporal or spacial variables), our model can efficiently learn and predict multi-dimensional solution arrays. Our method naturally unifies discrete and continuous fidelity modeling. The advantage of our method in several typical applications shows a promising new direction for multi-fidelity learning. 
 
