@@ -201,12 +201,12 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Publications
+      title: Latest Publications
       # text: |-
       #   {{% callout note %}}
       #   Quickly discover relevant content by [filtering publications](./publication/).
       #   {{% /callout %}}
-      count: 100
+      count: 5
       filters:
         folders:
           - publication
@@ -237,28 +237,12 @@ sections:
     content:
       title: Services
       subtitle: ''
-      text: |- 
-        ### Program Comittee
-        * AISTATS 2024
-        * UAI 2023
-        * AISTATS 2023
-        * UAI 2022
-        * AISTATS 2022
-        * ICMLA 2022
-        ### Conference Reivewer 
-        * ICLR 2024
-        * NeurIPS 2023
-        * ICML 2023 Workshop SPIGM
-        * NeurIPS 2022
-        * NeurIPS 2022 MetaLearn Workshop
-        * ICML 2022
-        * AISTATS 2021
-        * ICMLA 2021
-        * UAI 2021
-        * AAAI 2020
-        ### Journal Reivewer
-        * Journal of Computational Physics
-        * Scientific Reports
+      text: |-
+        * <b>Program Committee</b>: UAI 2024, AISTATS 2024, UAI 2023, AISTATS 2023, UAI 2022, ICMLA 2022
+
+        * <b>Conference Reviewer</b>: ICML 2024, ICLR 2024, NeurIPS 2023, ICML 2023, NeurIPS 2022, ICML 2022, AISTATS 2021, ICMLA 2021, UAI 2021, AAAI 2020
+
+
         
     design:
       columns: '2'
@@ -270,14 +254,7 @@ sections:
       # id: teaching
       subtitle: ''
       text: |-
-        ### The University of Utah 
-        * *Teaching Mentorship* : CS 6350 Machine Learning (Fall 2021)
-        * *Teaching Mentorship* : CS 6350 Machine Learning (Spring 2021)
-        ### The University of Georgia 
-        * *Teaching Assistant* : CSCI 1101 Introduction to Programming (Fall 2017)
-        * *Teaching Assistant* : CSCI 1101 Introduction to Programming (Spring 2017)
-        * *Teaching Assistant* : CSCI 8902 Decision Making under Uncertainties (Fall 2016)
-        * *Teaching Assistant* : CSCI 1301 System Programming (Fall 2015)
+        <span style="color:blue"> *Coming soon!* </span>
 
     design:
       columns: '2'
@@ -323,7 +300,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: shiboli.cs@gmail.com
       # phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       address:
         street: 3910, 50 Central Campus Drive
         city: Salt Lake City
