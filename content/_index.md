@@ -198,15 +198,54 @@ sections:
   #     columns: '2'
   #     view: card
 
+  # - block: markdown
+  #   id: news
+  #   content:
+  #     title: News
+  #     # id: teaching
+  #     subtitle: ''
+  #     text: |-
+  #       * <span style="color:blue"> I invite students of all levels to join my group beginning in Fall 2024. </span>
+  #       * [<b>May 1st 2024</b>] I will join FSU as a tenure-track assitant professor in the Department of Computer Science starting Fall 2024.
+
+  #   design:
+  #     columns: '2'
+
+  - block: markdown
+    id: news
+    content:
+      title: News
+      # id: teaching
+      subtitle: ''
+      text: |-
+        * <span style="color:blue"> I invite students of all levels to join my group beginning in Fall 2024. </span>
+        * [<b>May 1st 2024</b>] I will join FSU as a tenure-track assitant professor in the Department of Computer Science starting Fall 2024.
+
+    design:
+      columns: '2'
+
+  - block: markdown
+    id: openings
+    content:
+      title: Openings
+      # id: teaching
+      subtitle: ''
+      text: |-
+        * <span style="color:blue"> I invite students of all levels to join my group beginning in Fall 2024. </span>
+        * [<b>May 1st 2024</b>] I will join FSU as a tenure-track assitant professor in the Department of Computer Science starting Fall 2024.
+
+    design:
+      columns: '2'
+
   - block: collection
     id: featured
     content:
-      title: Latest Publications
+      title: Publications
       # text: |-
       #   {{% callout note %}}
       #   Quickly discover relevant content by [filtering publications](./publication/).
       #   {{% /callout %}}
-      count: 5
+      count: 100
       filters:
         folders:
           - publication
