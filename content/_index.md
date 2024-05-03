@@ -198,6 +198,55 @@ sections:
   #     columns: '2'
   #     view: card
 
+  # - block: markdown
+  #   id: news
+  #   content:
+  #     title: News
+  #     # id: teaching
+  #     subtitle: ''
+  #     text: |-
+  #       * <span style="color:blue"> I invite students of all levels to join my group beginning in Fall 2024. </span>
+  #       * [<b>May 1st 2024</b>] I will join FSU as a tenure-track assitant professor in the Department of Computer Science starting Fall 2024.
+
+  #   design:
+  #     columns: '2'
+
+  - block: markdown
+    id: news
+    content:
+      title: News
+      # id: teaching
+      subtitle: ''
+      text: |-
+        * [<b>May 1st 2024</b>] I will join FSU as a tenure-track assitant professor in the Department of Computer Science starting Fall 2024.
+
+    design:
+      columns: '2'
+
+  - block: markdown
+    id: openings
+    content:
+      title: Openings
+      # id: teaching
+      subtitle: ''
+      text: |-
+        <span style="color:red"> I am looking for highly motivated students with a solid background in probability, linear algebra, and/or optimization and good programming skills. If you want to join my group, please contact me via shiboli.cs@gmail.com. In particular, if you have a strong math and/or physics background (e.g., with a BS degree in math or physics) and have coding experiences, e.g., Matlab and Python), feel free to schedule a meeting with me.</span>
+
+        <span style="color:blue"><b>*Note:*</b></span> Please title you email in the format of <b>[Phd/Master/Undergraduate/Interns - YOUR NAME - STARTING TERM]</b> to get noticed.
+
+        Ways to work with me
+        * [<b> Applying Ph.D. </b>]: Please send me your CV, transcript, TOEFL, GRE scores (if applicable), and any other materials you think would be helpful. More information could be found via <a href="https://www.cs.fsu.edu/admissions/graduate-admissions/" style="color: blue; text-decoration: underline;text-decoration-style: dotted;">this link</a>. 
+
+          <span style="color:red"> <b>Applications for Fall 2024 and Spring 2025 are still open; contact me before applying.</b></span>
+        * [<b> Existing master, undergraduate students </b>]: If you are a master's or undergraduate student who has already been affiliated with FSU and want to expose yourself to state-of-the-art machine learning research, please send me your CV/Resume to my email. 
+        * [<b> Reseach Interns </b>]: Feel free to contact me.
+
+
+
+
+    design:
+      columns: '2'
+
   - block: collection
     id: featured
     content:
@@ -237,28 +286,12 @@ sections:
     content:
       title: Services
       subtitle: ''
-      text: |- 
-        ### Program Comittee
-        * AISTATS 2024
-        * UAI 2023
-        * AISTATS 2023
-        * UAI 2022
-        * AISTATS 2022
-        * ICMLA 2022
-        ### Conference Reivewer 
-        * ICLR 2024
-        * NeurIPS 2023
-        * ICML 2023 Workshop SPIGM
-        * NeurIPS 2022
-        * NeurIPS 2022 MetaLearn Workshop
-        * ICML 2022
-        * AISTATS 2021
-        * ICMLA 2021
-        * UAI 2021
-        * AAAI 2020
-        ### Journal Reivewer
-        * Journal of Computational Physics
-        * Scientific Reports
+      text: |-
+        * <b>Program Committee</b>: UAI 2024, AISTATS 2024, UAI 2023, AISTATS 2023, UAI 2022, ICMLA 2022
+
+        * <b>Conference Reviewer</b>: ICML 2024, ICLR 2024, NeurIPS 2023, ICML 2023, NeurIPS 2022, ICML 2022, AISTATS 2021, ICMLA 2021, UAI 2021, AAAI 2020
+
+
         
     design:
       columns: '2'
@@ -270,14 +303,7 @@ sections:
       # id: teaching
       subtitle: ''
       text: |-
-        ### The University of Utah 
-        * *Teaching Mentorship* : CS 6350 Machine Learning (Fall 2021)
-        * *Teaching Mentorship* : CS 6350 Machine Learning (Spring 2021)
-        ### The University of Georgia 
-        * *Teaching Assistant* : CSCI 1101 Introduction to Programming (Fall 2017)
-        * *Teaching Assistant* : CSCI 1101 Introduction to Programming (Spring 2017)
-        * *Teaching Assistant* : CSCI 8902 Decision Making under Uncertainties (Fall 2016)
-        * *Teaching Assistant* : CSCI 1301 System Programming (Fall 2015)
+        <span style="color:blue"> *Coming soon!* </span>
 
     design:
       columns: '2'
@@ -323,7 +349,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: shiboli.cs@gmail.com
       # phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       address:
         street: 3910, 50 Central Campus Drive
         city: Salt Lake City
