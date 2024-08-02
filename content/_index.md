@@ -351,10 +351,10 @@ sections:
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: 3910, 50 Central Campus Drive
-        city: Salt Lake City
-        region: UT
-        postcode: '84112'
+        street: 1017 Academic Way, 206
+        city: Tallahassee
+        region: FL
+        postcode: '32304'
         country: United States
         country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
