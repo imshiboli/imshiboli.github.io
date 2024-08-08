@@ -21,7 +21,7 @@ role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: 206 James Jay Love Building (LOV)
+  - name: 206A James Jay Love Building (LOV)
   - name: Department of Computer Science 
     url: https://www.cs.fsu.edu/
   # - name: Scientific Computing and Imaging Institute
