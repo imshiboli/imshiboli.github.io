@@ -1,97 +1,166 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: University of Utah
+      year: 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <b><i>Dissertation:</i></b> <a href="https://www.proquest.com/openview/e6e5836e2868db5599d888ad2592a855/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y">Efficient Probabilistic Learning and Optimization for Physical Simulations</a>
+        - Advised by <a href="https://users.cs.utah.edu/~zhe/">Shandian Zhe</a>.
+    - title: M.S. in Mechanical Engineering
+      institution: University of Pittsburgh
+      year: 
       description:
-        - Description 1.
-        - Description 2.
+    - title: B.E. in Mechatronics Engineering
+      institution: South China University of Technology, Guangzhou, China
+      year:
+      description:
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Professor of Theoretical Physics
+#       institution: Institute for Advanced Study, Princeton University
+#       year: 1933 - 1955
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Visiting Professor
+#       institution: California Institute of Technology, Pasadena, California, US
+#       year: 1933
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+#     - title: Director
+#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#       year: 1917-1933
+
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
+
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Applied Scientist Intern 
+      items: Amazon.com Inc.
+      year: 2022
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Applied Scientist Intern 
+      items: Amazon.com Inc.
+      year: 2021
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Robotics Research Intern
+      items: Schlumberger-Doll Research
+      year: 2018
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant
+      institution: >
+        CS6350: Machine Learning, University of Utah
+      year: Fall 2021
+      
+    - title: Teaching Assistant
+      institution: >
+        CS6350: Machine Learning, University of Utah
+      year: Spring 2021
+      
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
-- title: Academic Interests
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+# - title: Professional Services
+#   type: list
+#   contents:    
+#     - <strong>Journal Reviewer:</strong> Journal of Computational Physics, Neural Networks, Scientific Report.
+#     items:
+#       - Description 1.
+#       - Description 2.
+#     - <strong>Conference Reviewer/ Program Committee:</strong> NeurIPS (2019-2022, 2016), ICML (2019-2023), ICLR (2019-2023), AISTATS (2020-2022), UAI (2020-2023), AAAI (2020).
+
+
+- title: Professional Services
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Journal Reviewer
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Journal of Computational Physics (JCP)
+        - Scientific Report
+        - Neural Networks (NEUNET)
+    - title: Conference Reviewer/ Program Committee
       items:
-        - Description 1.
-        - Description 2.
+        - <strong>NeurIPS</strong> 2022, 2023, 2024, 2025
+        - <strong>ICML</strong> 2022, 2023, 2024, 2025
+        - <strong>AISTATS</strong> 2021, 2022, 2023, 2024
+        - <strong>UAI</strong> 2022, 2023, 2024, 2025
+        - <strong>ICLR</strong> 2024, 2025
+        - <strong>AAAI</strong> 2020, 2025
+        - <strong>L4DC</strong> 2024
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
