@@ -23,6 +23,15 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$fsu-gernet-color: #782F40 !default;
+$fsu-gold-color: #CEB888 !default;
+$utah-red-color: #BE0000 !default;
+$utah-rocks-color: #890000 !default;
+$utah-granite-color: #708E99 !default;
+$utah-wasatch-color: #FFB81D !default;
+$utah-mountain-green-color: #6CC24A !default;
+$utah-salt-lake-color: #3ABFC0 !default;
+$utah-zion-cinder-color: #707271 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
