@@ -95,6 +95,16 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Instructor
+      institution: >
+        CIS 5930: Probabilistic Machine Learning, Florida State University
+      year: Spring 2025
+
+    - title: Instructor
+      institution: >
+        CS6350: Introduction to Programming in C++ for Majors, Florida State University
+      year: Fall 2024
+
     - title: Teaching Assistant
       institution: >
         CS6350: Machine Learning, University of Utah
